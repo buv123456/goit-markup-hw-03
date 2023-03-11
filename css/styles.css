@@ -1,0 +1,243 @@
+:root {
+  --color-title: #2e2f42;
+  --color-logo: #4d5ae5;
+  --color-title-contrast: #ffffff;
+  --color-active: #404bbf;
+  --color-success: #31D0AA;
+  --color-text: #434455;
+  --color-text-footer: #d9d9d9;
+  --color-text-btn: #4d5ae5;
+  --color-logo-ft: #f4f4fd;
+  --bg-team: #f4f4fd;
+  --bg-btn-hero: #4d5ae5;
+  --bg-btn-pf: #f4f4fd;
+  --bg-btn-active: #404bbf;
+  --bg-footer: #2e2f42;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: var(--color-text);
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--color-title);
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-title);
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+/* ----------------HEADER------------------ */
+.header {}
+
+.nav {}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo);
+}
+
+.logo-part {
+  color: var(--color-title);
+}
+
+.nav-list {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list-item {}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--color-active);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-list {}
+
+.address-list-item>.link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: var(--color-active);
+}
+
+/* ----------------SLIDER------------------ */
+.slider {
+  background-color: var(--color-title);
+}
+
+.slider-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-title-contrast);
+}
+
+.slider-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: var(--bg-btn-hero);
+  color: var(--color-title-contrast);
+}
+
+.slider-btn:is(:hover, :focus) {
+  background-color: var(--bg-btn-active);
+}
+
+/* ----------------OUR ADVANTAGES------------------ */
+.advantage {}
+
+.advantage-list {}
+
+.advantage-item {}
+
+.advantage-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+}
+
+.advantage-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+/* ----------------WE DOING------------------ */
+.doing {}
+
+
+
+.doing-list {}
+
+.doing-item {}
+
+/* ----------------OUR TEAM------------------ */
+.team {
+  background-color: var(--bg-team);
+}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {
+  background-color: var(--color-title-contrast);
+}
+
+.team-item-title {}
+
+
+.team-item-text {}
+
+
+/* ----------------FOOTER------------------ */
+.footer {
+  background-color: var(--bg-footer);
+}
+
+.footer .logo-part {
+  color: var(--color-logo-ft);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-footer);
+}
+
+/* ----------------PAGE PORTFOLIO------------------ */
+/* -----------portfolio nav------------------ */
+.portfolio {}
+
+.portfolio-nav {}
+
+.portfolio-nav-item {}
+
+.portfolio-nav-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: var(--bg-btn-pf);
+}
+
+.portfolio-nav-btn:is(:hover, :focus, :active) {
+  color: var(--color-title-contrast);
+  background-color: var(--bg-btn-active);
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-figure {}
+
+.portfolio-figcaption {}
+
+.portfolio-item-title {}
+
+.portfolio-item-text {}
