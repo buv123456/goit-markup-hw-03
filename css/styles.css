@@ -14,6 +14,7 @@
   --bg-btn-pf: #f4f4fd;
   --bg-btn-active: #404bbf;
   --bg-footer: #2e2f42;
+  --gap-photo: 24px;
 }
 
 
@@ -91,7 +92,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 /* ----------------HEADER------------------ */
@@ -224,7 +225,7 @@ ul {
 
 .advantage-list {
   display: flex;
-  gap: 24px;
+  gap: var(--gap-photo);
 }
 
 .advantage-item {
@@ -259,7 +260,7 @@ ul {
 
 .doing-list {
   display: flex;
-  gap: 24px;
+  gap: var(--gap-photo);
 }
 
 .doing-item {
@@ -279,7 +280,7 @@ ul {
 
 .team-list {
   display: flex;
-  gap: 24px;
+  gap: var(--gap-photo);
 
 }
 
@@ -334,13 +335,15 @@ ul {
 
 /* ----------------PAGE PORTFOLIO------------------ */
 /* -----------portfolio nav------------------ */
-.portfolio {}
+.portfolio {
+  padding-bottom: 120px;
+}
 
 .portfolio-nav {
   padding-top: 96px;
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: var(--gap-photo);
 }
 
 .portfolio-nav-item {}
@@ -368,11 +371,11 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: calc(var(--gap-photo) * 2) var(--gap-photo);
 }
 
 .portfolio-item {
-  width: calc((1128px - 2 * 24px) / 3);
+  width: calc((100% - 2 * var(--gap-photo)) / 3);
   padding-bottom: 32px;
   border: 1px solid var(--color-border)
 }
