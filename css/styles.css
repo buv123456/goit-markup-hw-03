@@ -96,13 +96,16 @@ ul {
 }
 
 /* ----------------HEADER------------------ */
+.header {
+  border-bottom: 1px solid #D9D9D9;
+}
 
 .header-container {
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #D9D9D9;
+
 }
 
 .nav {
@@ -336,11 +339,11 @@ ul {
 /* ----------------PAGE PORTFOLIO------------------ */
 /* -----------portfolio nav------------------ */
 .portfolio {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
 .portfolio-nav {
-  padding-top: 96px;
   display: flex;
   justify-content: center;
   gap: var(--gap-photo);
@@ -376,15 +379,17 @@ ul {
 
 .portfolio-item {
   width: calc((100% - 2 * var(--gap-photo)) / 3);
-  padding-bottom: 32px;
-  border: 1px solid var(--color-border)
+  /* padding-bottom: 32px; */
+
 }
 
 .portfolio-description {
-  margin-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  /* padding-bottom: 32px; */
+  /* padding-left: 16px; */
   text-align: start;
-
+  border: 1px solid var(--color-border);
+  border-top: transparent;
 }
 
 .portfolio-item-title {}
